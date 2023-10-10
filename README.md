@@ -2,7 +2,7 @@ How to build:
 After mvn clean install, generated files will be in target folder.
 
 How to run:
-It is as simple as a spring boot project.
+It is as simple as a spring boot application.
 
 How to test:
 Please install BloomRPC (https://formulae.brew.sh/cask/bloomrpc), mac might complain,
