@@ -1,0 +1,19 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.test.example";
+option java_outer_classname = "TestProto";
+option objc_class_prefix = "";
+package micro;
+service TestService {
+  rpc call (Request) returns (Response) {
+  }
+}
+
+message Request {
+  int64 id=1;
+  string  input=2;
+}
+
+message Response {
+  string  output=1;
+}
