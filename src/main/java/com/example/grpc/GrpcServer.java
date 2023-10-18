@@ -8,6 +8,7 @@ import com.test.example.Request;
 import com.test.example.Response;
 import com.test.example.TestServiceGrpc;
 import io.grpc.stub.StreamObserver;
+import org.lognet.springboot.grpc.GRpcService;
 
 //@GRpcService
 public class GrpcServer extends TestServiceGrpc.TestServiceImplBase {
