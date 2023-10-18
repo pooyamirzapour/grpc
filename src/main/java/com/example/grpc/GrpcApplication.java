@@ -35,6 +35,7 @@ public class GrpcApplication {
 
         System.out.println(server);
 
+        callServices(1);
         callServices(10);
         callServices(100);
         callServices(1000);
