@@ -73,22 +73,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.jayway.jsonpath</groupId>
-			<artifactId>json-path</artifactId>
-		</dependency>
-
-
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>net.devh</groupId>
 			<artifactId>grpc-server-spring-boot-autoconfigure</artifactId>
 			<version>${grpc-spring-boot.version}</version>
@@ -141,7 +125,7 @@
 
 					<attachProtoSources>true</attachProtoSources>
 					<writeDescriptorSet>true</writeDescriptorSet>
-					<includeSourceInfoInDescriptorSet>true</includeSourceInfoInDescriptorSet>
+					<includeSourceInfoInDescriptorSet>Sctrue</includeSourceInfoInDescriptorSet>
 					<includeDependenciesInDescriptorSet>true</includeDependenciesInDescriptorSet>
 					<attachDescriptorSet>true</attachDescriptorSet>
 					<descriptorSetClassifier>descriptorSet</descriptorSetClassifier>

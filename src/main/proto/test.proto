@@ -15,5 +15,20 @@ message Request {
 }
 
 message Response {
-  string  output=1;
+repeated GrpcContract grpcContracts =1;
 }
+
+message GrpcContract{
+  int64 id=1;
+  string name=2;
+  string name1=3;
+  string name2=4;
+  string name3=5;
+  string name4=6;
+  string name5=7;
+  string name6=8;
+  string name7=9;
+  string name8=10;
+  string name9=11;
+  string name10=12;
+    }
